@@ -1,0 +1,57 @@
+{
+  "id": "mail_app",
+  "from": {
+    "encrypted_data": "CQ9J/G+MeDNAbPjDbPf751ubs/tiMjDbWOD+aoCq8Gba3jEabxCI+lDIXrRQ\ncvs9\n",
+    "iv": "JKe9EOs4MiQKan2RtVW3+Q==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "to": {
+    "encrypted_data": "d0ZOznjgt5n0Qcn2rfo9zjx2uUT9SCBKX2Jyr2HOeBk/xXqZFY+rXNpLElOf\njsTR\n",
+    "iv": "fLrqNiP/c1iTQHzpokbjrw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "address": {
+    "encrypted_data": "BIPiCZa8lis9SU1p4gEQW+B9D6orBZSm5sdQfBYmUU0pzhFxhDhE/El3/6U4\nFhyj\n",
+    "iv": "LwyFmJyERLUJGtRIoqfI2A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "port": {
+    "encrypted_data": "tKK3kJnndkoRskdXYm0nZSLo3H3+x7AUk4OTbAKbeUM=\n",
+    "iv": "Z7tkN7yBu87mMe5NdVWC0Q==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "domain": {
+    "encrypted_data": "5mazMXMw9ZlhSmsmOH07YSjbeZbK0YHPik6BnjEc4t51fyJr+mDqa/RA+NU8\noRZZ\n",
+    "iv": "Gu+Z38a9FghTCtdo9PQkjg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "user_name": {
+    "encrypted_data": "MJmNbIcAPRNz3RjrgRKBD5qrFoCcKRBpj3m1u0dAUSo=\n",
+    "iv": "+/fmX525+CLDbdA1gv/Nbg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "P5RxzrqX1+ocE41Rdjie0k2Bqj6J5WJg/VIfp7LQv8W/MfLR+HoPkAQhPACV\nioh1\n",
+    "iv": "VNNJBG8SGCLHAzc1kPPTGg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "authentication": {
+    "encrypted_data": "skmP8k2kvJcyZwNqUtWNaHezGXOVxGeML4nqtS93wGs=\n",
+    "iv": "2amCnOCF4JlVDxlnGu4eXg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "encryption": {
+    "encrypted_data": "aKqVoHVy7RGMPm5baUVrIvtGMfqejEbOkoBUZytOp7o=\n",
+    "iv": "SdS+B6pIdMYeB5JYBPlsqw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

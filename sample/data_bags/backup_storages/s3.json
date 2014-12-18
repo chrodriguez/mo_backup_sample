@@ -1,0 +1,39 @@
+{
+  "id": "s3",
+  "access_key_id": {
+    "encrypted_data": "gwM7m534oZJA1HIkOWzFtH9zynVwQD0GwNbA3FK1KKxYMnyDCk+VUOyhYbBI\nCVxT\n",
+    "iv": "oAYxTraK1BpLiHoWIkELOA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "secret_access_key": {
+    "encrypted_data": "Eb9SKq1GfuGS3LLOSCOPlqprLfjadlpifK1N8D9cCn498zALcNV58INUeu3P\nBLmjfMXkOZ6R2Qjy65pTyQ+umA==\n",
+    "iv": "Vj4POPXdSqljNmymH3XiyA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "region": {
+    "encrypted_data": "BEhuBnrVqcXdEIrOyBgcxSj39IpboTREYqC5sn9AlVE=\n",
+    "iv": "Bpr7XI8Vrlu+uspwf998lQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "bucket": {
+    "encrypted_data": "PwNFHGMQrJnxAX91ZCp9DONS62oNRaHlYRPrLXweyj0=\n",
+    "iv": "Onbf9qdYt/7NhRx3k/ywDw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "encryption": {
+    "encrypted_data": "vi4dFDh1RHz4zFrXLRQYiUiFbL3aqy4h9I6iOmYJNQc=\n",
+    "iv": "pcS2tUHua8h2zcl7y+usAQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "type": {
+    "encrypted_data": "Cf2E54xsd1lJw+iLT9uul5ewx1elDrZp31AIxJwdNLQ=\n",
+    "iv": "cIHhdsrBLLz8GM6tY+NDvw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
