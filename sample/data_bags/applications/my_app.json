@@ -1,8 +1,8 @@
 {
   "id": "my_app",
   "production": {
-    "encrypted_data": "odIMhCi3LFcyWODEpjTuBsabD0dGWgSkFG9ZTNgzUvd8mQeg/sDp7jfRe4ej\nXfTmLnnYHHHdRLdOEv2xolnkSCucLMVCC3aZIeUO9GnvD3fPXdwHfaFN+t4o\nmQCH+kPcacJsjYHpvzjave1Rs0G1iDtCXxsu1T9zLjw7b4myZLAp3qId655j\nakgf8iUkERM0YnseTz0H4veANBEySl7huXxmfir9oolRtX0Oag480Le5KmM1\neIxXzP0Y5yMOdR+Hh6zDYtV39rxv6KBVBtTO9bAcc6r65WK0goG/rUSu2GM9\nE2ZBaQ0R+LpmHXCrSeNJWfUKH7uagSG7nZT9AycuN94orJoPq/j7llpqRypH\n33PMLGrtu9cbHdxcnrEiOiz2xz0I1uLfbHo94PtrG6H0yRY5yy9/vQtHK5MN\nYz684sxxNu2aiZIqc7ptKXXJGeq8oUMXvkm2SzLmSWQgZc0XiLm2aBSBxuOH\nwQNynv01UP0lm5ttBMYveQOTY8LcofASP09pCQokLA4n5TeFaIwBLTlKSbmi\n17/8nv3cWgyGPs1ACftbZokWveVCGgG26tH3qiaKtNH90KEqTbahsggruiHA\niICFjf9FItmXRhRib+sPr6m/xSdL/9aw0xPvY4SbXqqeIOxHUBq+uTtwsFn8\n4+hhxKuInhOA6iUgILD8QMd+ddupjvQdP2dLLbCX0enKfHrEgmqPq/kjPpEi\nuNCSqlpt2VdBNXTsscpcCKOQcMP8zYZAbnUUd11lkb66drgu98ZmtnZDhOsq\nCU0L3oSPBQ==\n",
-    "iv": "YfAX5ldSzgw1cnSQJCD9xg==\n",
+    "encrypted_data": "FRtDS38rk+iv1gig/zxnXCK8g05qj2team+id0WvGT9gaNuzT5guGPl1o9KW\n0sr3KJ6HnFZ2VwjZe4WJDMJVQjPiJ3jzKL3DCU4ffmKCfScTsEzINdDJzluE\nI9pZlgyf3VusKgBo+rZMd3Tx4Da3amuGI+5BR/ywFRNHVKvjdjrUi/fvRWK2\nlGymGBC5/yWF2DVRT/fv+UraK9SKGsoxdepa8IIsXuYIm+U9W0oH1t/A2G9F\nTjudIjY1Ssr0t0z2h8QzHVlS2KTZQo6LoDq2NF/LVjDI4jbx38/QLDhIM6iz\nAnqIrewN0Y4yPnvbA8FvXWgzOJThsvbKymqOIsBysK2FaZAO7QXU+fF7lajO\np+d/YlHASNTmhr4BZ4VqVkhAmmBZfdgtZTcLBvmvDQ/5Q9qp8KQu+r4lfD9i\niVYXFI5ho9Ka5vMHSx38aT3+RFzAq4eFG4yboA3/lhdW1vu8yQg+dSZnyQSZ\nuhj74zm5/wvH9LIGZsi7aW++U+2B1HhxP3N4DsYgps12mDfv3QsrZci/UMvo\nZ9V74DU4V6puTx7z2l2U7A71GwdO517L757hVSe+KPGuGU0a+Cjh0DEU9B/w\nGP39AWFgTQyEaZpONtC3y3H0uFjEAuJIRgxRUN5VgPawNu6BN/y5iS0XAtMo\npem73uasfFPOaT6uLvo8PG9mkyUR6A/xBVNbFRCqVTvLiy6pFiDj8eW4lqGF\nXNG7GwBdtfv6vY42IUYkI2bzLU5VP/Cf6rC0lfvAlFh3nP2T0bJLpBMibJr1\nLp65pTunHw==\n",
+    "iv": "KsaHH5h6ZyK3xf/BmuCZyg==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }
