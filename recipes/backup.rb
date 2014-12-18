@@ -1,1 +1,1 @@
-generate_model(node["mo_backup_sample"]["backup"], "production")
+mo_backup_generate_model(node["mo_backup_sample"]["backup"], "production")
