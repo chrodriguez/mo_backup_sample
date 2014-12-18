@@ -9,6 +9,7 @@ Sample application used to show how to use
 * [Data bags](#data-bags)
 * [Recipes](#recipes)
 * [Usage](#usage)
+* [To Do](#to-do)
 * [License](#license)
 * [Authors](#authors)
 
@@ -57,7 +58,7 @@ of the string backup, the application id and the environment.
 
 To use this recipe just run `vagrant up` and it should work.
 
-## To-Do
+## To Do
 
 This cookbook uses mo_backup and that one has not yet implemented a task to add
 cron jobs so this cookbook will create and write the backup configuration file
