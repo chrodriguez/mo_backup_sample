@@ -9,23 +9,25 @@ Sample application used to show how to use
 * [Data bags](#data-bags)
 * [Recipes](#recipes)
 * [Usage](#usage)
-* [To Do](#to-do)
 * [License](#license)
 * [Authors](#authors)
 
 ## Attributes
 
-The following attributes are keys of a hash inside
-`default["mo_backup_sample"]["backup"]`. Check attributes/defaults.rb.
+General attributes (inside `default["mo_backup_sample"]`).
 
 `id`: application id.
 `description`: an application description.
 `user`: the user the application runs with.
 `databag`: the databag where the application is defined.
+
+The following attributes are keys of a hash inside
+`default["mo_backup_sample"]["backup"]`. Check attributes/defaults.rb.
+
 `storages_databag`: databag where different storages are defined.
 `mail_databag`: databag where mailservers and accounts are defined.
 
-**Important**: every databag used in this recipe is encrypted with the key
+**Important**: storages and mail databags are encrypted with the key
 stored in sample/.chef/data_bag_key.
 
 ## Data bags
@@ -43,7 +45,6 @@ After that, you will be able to execute the following commands (make sure you
 run these commands inside sample directory):
 
 ```
-knife solo data bag edit applications my_app --secret-file .chef/data_bag_key
 knife solo data bag show mail_databag mail_app --secret-file .chef/data_bag_key
 ```
 
@@ -57,13 +58,6 @@ of the string backup, the application id and the environment.
 ## Usage
 
 To use this recipe just run `vagrant up` and it should work.
-
-## To Do
-
-This cookbook uses mo_backup and that one has not yet implemented a task to add
-cron jobs so this cookbook will create and write the backup configuration file
-but will not schedule it to be executed periodically. Besides, this cookbook
-does not install the backup gem required.
 
 ## License
 

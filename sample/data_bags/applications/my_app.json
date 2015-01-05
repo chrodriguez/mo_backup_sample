@@ -1,9 +1,59 @@
 {
   "id": "my_app",
   "production": {
-    "encrypted_data": "FRtDS38rk+iv1gig/zxnXCK8g05qj2team+id0WvGT9gaNuzT5guGPl1o9KW\n0sr3KJ6HnFZ2VwjZe4WJDMJVQjPiJ3jzKL3DCU4ffmKCfScTsEzINdDJzluE\nI9pZlgyf3VusKgBo+rZMd3Tx4Da3amuGI+5BR/ywFRNHVKvjdjrUi/fvRWK2\nlGymGBC5/yWF2DVRT/fv+UraK9SKGsoxdepa8IIsXuYIm+U9W0oH1t/A2G9F\nTjudIjY1Ssr0t0z2h8QzHVlS2KTZQo6LoDq2NF/LVjDI4jbx38/QLDhIM6iz\nAnqIrewN0Y4yPnvbA8FvXWgzOJThsvbKymqOIsBysK2FaZAO7QXU+fF7lajO\np+d/YlHASNTmhr4BZ4VqVkhAmmBZfdgtZTcLBvmvDQ/5Q9qp8KQu+r4lfD9i\niVYXFI5ho9Ka5vMHSx38aT3+RFzAq4eFG4yboA3/lhdW1vu8yQg+dSZnyQSZ\nuhj74zm5/wvH9LIGZsi7aW++U+2B1HhxP3N4DsYgps12mDfv3QsrZci/UMvo\nZ9V74DU4V6puTx7z2l2U7A71GwdO517L757hVSe+KPGuGU0a+Cjh0DEU9B/w\nGP39AWFgTQyEaZpONtC3y3H0uFjEAuJIRgxRUN5VgPawNu6BN/y5iS0XAtMo\npem73uasfFPOaT6uLvo8PG9mkyUR6A/xBVNbFRCqVTvLiy6pFiDj8eW4lqGF\nXNG7GwBdtfv6vY42IUYkI2bzLU5VP/Cf6rC0lfvAlFh3nP2T0bJLpBMibJr1\nLp65pTunHw==\n",
-    "iv": "KsaHH5h6ZyK3xf/BmuCZyg==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
+    "databases": [
+      {
+        "name": "my_app",
+        "username": "my_app",
+        "password": "my_apppass",
+        "host": "172.17.2.1",
+        "type": "mysql"
+      },
+      {
+        "name": "my_app2",
+        "username": "my_app2",
+        "password": "my_app2pass",
+        "type": "mysql"
+      }
+    ],
+    "backup": {
+      "archive": {
+        "root": "/opt/applications/my_app",
+        "add": [
+          "/app/",
+          "/log"
+        ],
+        "use_sudo": false
+      },
+      "schedule": {
+        "hour": "3"
+      },
+      "databases": [
+        "my_app",
+        "my_app2"
+      ],
+      "compress": true,
+      "storages": [
+        {
+          "id": "s3",
+          "path": "my_app",
+          "keep": 30
+        },
+        {
+          "id": "otro_s3",
+          "path": "backups",
+          "keep": 60
+        }
+      ],
+      "mail": {
+        "mail_id": "mail_app",
+        "on_success": "false",
+        "from": "my-app-backups@example.local",
+        "to": "my-app-group@example.local"
+      },
+      "encryptor": {
+
+      }
+    }
   }
 }
