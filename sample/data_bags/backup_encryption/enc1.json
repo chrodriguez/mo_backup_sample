@@ -1,0 +1,15 @@
+{
+  "id": "enc1",
+  "password": {
+    "encrypted_data": "mGhzq2ljqYF5HSdLf67anVz4SO7moJZgaftgCuNH8FTS9u47GMUmeB8z/x6r\nxHxf\n",
+    "iv": "VMsKS0fD4RuQxvImKlpZ/g==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "type": {
+    "encrypted_data": "eW2uCVemmTw6OeKf3BqvmXrssrCW0yJfQqVnaHlEg48=\n",
+    "iv": "GgQGwxCNY7FguVDKeXmlQA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}

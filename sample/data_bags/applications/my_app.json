@@ -33,6 +33,7 @@
         "my_app2"
       ],
       "compress": true,
+      "encryptor": "enc1",
       "storages": [
         {
           "id": "s3",
@@ -43,6 +44,18 @@
           "id": "otro_s3",
           "path": "backups",
           "keep": 60
+        },
+        {
+          "id": "sftp"
+        }
+      ],
+      "syncers": [
+        {
+          "id": "rsync1",
+          "directory": {
+            "add": ["/var/lib/mysql", "/opt/applications"],
+            "exclude": ["/opt/applications/tmp"]
+          }
         }
       ],
       "mail": {
@@ -50,9 +63,6 @@
         "on_success": "false",
         "from": "my-app-backups@example.local",
         "to": "my-app-group@example.local"
-      },
-      "encryptor": {
-
       }
     }
   }

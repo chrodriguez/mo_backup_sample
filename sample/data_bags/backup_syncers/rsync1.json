@@ -1,0 +1,45 @@
+{
+  "id": "rsync1",
+  "host": {
+    "encrypted_data": "XOG6kycKPh1KsZb94psEVm/JKhc+iotlZ/PjWKzzi7ng9MWCBjYPfAGMSkzh\n+HHi\n",
+    "iv": "dQx7JfV6QMih1dhKYZjUwQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_user": {
+    "encrypted_data": "/iK5Fb57E9ihAXDDIY9a7qpKAcy8cB2Cr8Ini3JHQzM=\n",
+    "iv": "x9VgdRXFdxxfKi7LdIeVSA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_pubkey": {
+    "encrypted_data": "HFOa7mLIz0X/Q3TmBmQerqB9hhP48IHCqO0i43PLQ6LVWJCnFucRHJlWEzD4\n0Hg2hmeadgQ+YOuKx1Twpg3YE07+clmkcVLDiWYNixy9icM=\n",
+    "iv": "5niVKfVgcK3Zr8q1bvzYSw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "ssh_pubkey_file": {
+    "encrypted_data": "OGwYafO5be5Uh4LjLKGt2KClcDaGrv9Bn/nyKjximwY=\n",
+    "iv": "SPPfgoei76XzKnoyVhugeg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "additional_ssh_options": {
+    "encrypted_data": "XEXz9stv58uj1Gf21YgCsn9e+eaFyRUT9szGwgPiAw9i7Y3u79JJ/pNRvEZP\noHXL\n",
+    "iv": "deb/hsfXqy9B8zfB1eptVA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "path": {
+    "encrypted_data": "yeEmuQmjYookT1pekZKe9QlZGG9WZs3maGU4AYuoKTA=\n",
+    "iv": "MB3O1rgq6kWxJmNfbBg3qg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "type": {
+    "encrypted_data": "dHnr/pw7EPUvQVKwDLiAKc9rgluE9ZLRz0if8wCYbH0=\n",
+    "iv": "Rp2nGPPTufGzl1FV35xkKg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
