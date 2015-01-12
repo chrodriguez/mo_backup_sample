@@ -1,44 +1,32 @@
 {
   "id": "rsync1",
   "host": {
-    "encrypted_data": "XOG6kycKPh1KsZb94psEVm/JKhc+iotlZ/PjWKzzi7ng9MWCBjYPfAGMSkzh\n+HHi\n",
-    "iv": "dQx7JfV6QMih1dhKYZjUwQ==\n",
+    "encrypted_data": "7oqIo8s1EKhIvqSMFqP3Uu/GzxXuwfJSBOCt1lViVU+5w+AeFHTVo54pecvX\n1LJD\n",
+    "iv": "xEKAOFFvwCoxqI8dDm0pOQ==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
-  "ssh_user": {
-    "encrypted_data": "/iK5Fb57E9ihAXDDIY9a7qpKAcy8cB2Cr8Ini3JHQzM=\n",
-    "iv": "x9VgdRXFdxxfKi7LdIeVSA==\n",
+  "rsync_user": {
+    "encrypted_data": "xo0xLx5gEKgghUxH8g2JD33pjT0scwLps7+CfliuKVY=\n",
+    "iv": "T4rFZ04Gj/twW+t0+vA8Jw==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
-  "ssh_pubkey": {
-    "encrypted_data": "HFOa7mLIz0X/Q3TmBmQerqB9hhP48IHCqO0i43PLQ6LVWJCnFucRHJlWEzD4\n0Hg2hmeadgQ+YOuKx1Twpg3YE07+clmkcVLDiWYNixy9icM=\n",
-    "iv": "5niVKfVgcK3Zr8q1bvzYSw==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
-  },
-  "ssh_pubkey_file": {
-    "encrypted_data": "OGwYafO5be5Uh4LjLKGt2KClcDaGrv9Bn/nyKjximwY=\n",
-    "iv": "SPPfgoei76XzKnoyVhugeg==\n",
-    "version": 1,
-    "cipher": "aes-256-cbc"
-  },
-  "additional_ssh_options": {
-    "encrypted_data": "XEXz9stv58uj1Gf21YgCsn9e+eaFyRUT9szGwgPiAw9i7Y3u79JJ/pNRvEZP\noHXL\n",
-    "iv": "deb/hsfXqy9B8zfB1eptVA==\n",
+  "rsync_password": {
+    "encrypted_data": "DT4Yx0CoNGb2GkNuW56wHu9jo0uH2IGap9tVmSBdpZM=\n",
+    "iv": "iOI24e4k2r29INpTXiQJ2Q==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "path": {
-    "encrypted_data": "yeEmuQmjYookT1pekZKe9QlZGG9WZs3maGU4AYuoKTA=\n",
-    "iv": "MB3O1rgq6kWxJmNfbBg3qg==\n",
+    "encrypted_data": "0p8I8yq/N2BDuBF4Ji90makvBkB2pSmY2+3ajxHizA0=\n",
+    "iv": "Q1eABTXeGZn0yrttQF4GzA==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   },
   "type": {
-    "encrypted_data": "dHnr/pw7EPUvQVKwDLiAKc9rgluE9ZLRz0if8wCYbH0=\n",
-    "iv": "Rp2nGPPTufGzl1FV35xkKg==\n",
+    "encrypted_data": "NoXWrUiw8b/Pvqbq4cpjGTo8J/PK0/bBZc5rWPqUmFo=\n",
+    "iv": "wD9p2l+27ZLMParHb63/ow==\n",
     "version": 1,
     "cipher": "aes-256-cbc"
   }

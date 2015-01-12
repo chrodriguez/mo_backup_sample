@@ -53,8 +53,8 @@
         {
           "id": "rsync1",
           "directory": {
-            "add": ["/var/lib/mysql", "/opt/applications"],
-            "exclude": ["/opt/applications/tmp"]
+            "add": ["/home/vagrant/prueba", "/var/log"],
+            "exclude": ["nova/"]
           }
         }
       ],
