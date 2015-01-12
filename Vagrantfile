@@ -22,7 +22,8 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       chef.json = {
       }
       chef.run_list = [
-        "recipe[mo_backup::install]",
+        # Uncomment the following line to also install the backup GEM.
+        #"recipe[mo_backup::install]",
         "recipe[mo_backup_sample::backup]"
       ]
     end
