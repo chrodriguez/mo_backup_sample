@@ -47,6 +47,9 @@
         },
         {
           "id": "sftp"
+        },
+        {
+          "id": "dropbox"
         }
       ],
       "syncers": [

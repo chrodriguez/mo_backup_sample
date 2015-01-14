@@ -1,0 +1,21 @@
+{
+  "id": "dropbox",
+  "api_key": {
+    "encrypted_data": "P8ggmXm9rg+vnka8aABLrr3adgtZctW6bDHbm4IjTGA=\n",
+    "iv": "80VNVComIXqSP8Yu8dIs9w==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "api_secret": {
+    "encrypted_data": "w5VTVcxJOHTPUGR3r4MhvIHQkMpkkR9yJEb72gsHyRXtu75/KPIrhqEntyhf\nAoBe\n",
+    "iv": "PNbL+/QChZ2Er7XCr7ZziQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "type": {
+    "encrypted_data": "Gfqm0Nflc198xLdcH+Yr0DZiBfo6TJw6qOmtUeKJAzk=\n",
+    "iv": "WQt4wajLak7X6JN/6nitpg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
