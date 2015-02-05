@@ -20,6 +20,11 @@
         "username": "mongodbuser",
         "password": "mongopass",
         "type": "mongodb"
+      },
+      {
+        "name": "redis_database",
+        "password": "redispass",
+        "type": "redis"
       }
     ],
     "backup": {

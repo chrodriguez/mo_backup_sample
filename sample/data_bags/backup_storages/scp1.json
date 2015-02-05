@@ -1,0 +1,39 @@
+{
+  "id": "scp1",
+  "username": {
+    "encrypted_data": "pEszqSrTWw1IS+5Nag4tKHON2CTSL2tg73Abok5qu6k=\n",
+    "iv": "yGa7dRME+Lt0tTlVEMUPjA==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "password": {
+    "encrypted_data": "MKWhN8NCHkrNv5su76auC7mpG4pceMqOyIx//dMlh8U=\n",
+    "iv": "B0J6krCb5eiplAv+N3Oh2A==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "host": {
+    "encrypted_data": "r3mltTfJuYOURflwokqmRjWJiF3pHEN9ODFfY/zYKPkunNGzwbOZT65o65tB\noj30\n",
+    "iv": "yOu8LK0xGkC/z8T9fgJPaw==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "path": {
+    "encrypted_data": "5gpQRKo5oB0+Sx8MoIhUQxxnsS1DNV6i/+k//8OVy+M=\n",
+    "iv": "/OVHXMfsirz4AW0F617Mqg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "keep": {
+    "encrypted_data": "dl8gIn1fr9G4xgvwhMqQK3o7Gp2fLnCl8BFZ8C/tANQ=\n",
+    "iv": "iva5UdktRtdReTTRm0dVvg==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  },
+  "type": {
+    "encrypted_data": "1UJPBSVlHhWfPXWjLDJWedhYGBABxg7wnqKfqYeSw94=\n",
+    "iv": "w6Qb8czsmV265DhenfZdiQ==\n",
+    "version": 1,
+    "cipher": "aes-256-cbc"
+  }
+}
