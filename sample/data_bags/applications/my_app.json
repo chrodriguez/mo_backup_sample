@@ -14,6 +14,12 @@
         "username": "my_app2",
         "password": "my_app2pass",
         "type": "mysql"
+      },
+      {
+        "name": "mongo",
+        "username": "mongodbuser",
+        "password": "mongopass",
+        "type": "mongodb"
       }
     ],
     "backup": {
@@ -47,6 +53,9 @@
         },
         {
           "id": "sftp"
+        },
+        {
+          "id": "scp1"
         },
         {
           "id": "dropbox"
