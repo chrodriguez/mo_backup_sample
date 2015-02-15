@@ -10,7 +10,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.define 'vm', primary: true do |app|
     app.vm.hostname = "backup-sample.desarrollo.unlp.edu.ar"
-    app.omnibus.chef_version = :latest
+    app.omnibus.chef_version = "11.16.4"
     app.vm.box = "chef/ubuntu-14.04"
     app.vm.network :private_network, ip: "10.100.10.3"
     app.berkshelf.enabled = true
@@ -23,7 +23,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
       }
       chef.run_list = [
         # Uncomment the following line to also install the backup GEM.
-        #"recipe[mo_backup::install]",
+        "recipe[mo_backup::install]",
         "recipe[mo_backup_sample::backup]"
       ]
     end
